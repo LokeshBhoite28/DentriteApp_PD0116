@@ -8,7 +8,7 @@ class MusicService{
         return axios.get(base_url+"/charts/track",
        
         { headers: {
-            'X-RapidAPI-Key': '7087775113mshe3bb78064c4e640p1b161fjsn903af094631c',
+            'X-RapidAPI-Key': 'enter_key',
             'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
           },
           params: {locale: 'en-US', pageSize: '20', startFrom: '0'}
@@ -19,7 +19,7 @@ class MusicService{
         return axios.get(base_url+"/songs/get-details",
        
         { headers: {
-            'X-RapidAPI-Key': '7087775113mshe3bb78064c4e640p1b161fjsn903af094631c',
+            'X-RapidAPI-Key': 'enter_key',
             'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
           },
           params: {key: {key}, locale: 'en-US'},
