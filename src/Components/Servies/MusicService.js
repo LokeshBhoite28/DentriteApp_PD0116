@@ -25,17 +25,6 @@ class MusicService{
           params: {key: {key}, locale: 'en-US'},
         })
     }
-
-    // getRecommended(){
-    //     return axios.get(base_url+"/songs/list-recommendations",
-       
-    //     { headers: {
-    //         'X-RapidAPI-Key': '7087775113mshe3bb78064c4e640p1b161fjsn903af094631c',
-    //         'X-RapidAPI-Host': 'shazam.p.rapidapi.com'
-    //       },
-    //       params: {key: '501844142', locale: 'en-US'},
-    //     })
-    // }
 }
 
 export default new MusicService();
