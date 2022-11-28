@@ -1,0 +1,41 @@
+.user-container {
+  padding-bottom: 320px;
+  color: #6e6e6e;
+  margin: 200px 20px 20px;
+}
+
+.side-menu-container {
+  padding: 20px;
+  color: #e3dada;
+  margin: 0;
+}
+.menu-item {
+  list-style-type: none;
+  line-height: 60px;
+  font-size: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 170px;
+}
+.menu-item:hover {
+  color: #fff;
+}
+.menu-item.active:before {
+  content: "";
+  position: relative;
+  left: -18px;
+  border-left: 3px solid #1db954;
+}
+.side-menu-container .library-header {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Proxima Thin", Georgia, sans-serif;
+  font-size: 12px;
+  margin: 0;
+  padding: 30px 0 5px 0;
+  letter-spacing: 1px;
+}
+
+
+
